@@ -118,7 +118,7 @@ button:hover{
         flex-direction: column;
         align-items: center; 
         justify-content: center;    
-        height:200vh;
+        height:120vh;
         margin: 20px;
     }
     #d-bg{
@@ -126,10 +126,12 @@ button:hover{
     }
     #m-bg{
         display: block;
+        height:120vh;
         position: absolute;
     }
     .left{
         width:90%;
+        height:50vh;
         text-align: center;
     }
     .right{    
@@ -151,7 +153,7 @@ button:hover{
         height: 80px;
     }
     form{
-        height:95vh;
+        height:70vh;
     }
     input{
         padding:15px;
