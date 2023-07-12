@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin:0 125px ;
+    height:100vh;
     position: relative;
 }
 #d-bg{
@@ -118,7 +119,6 @@ button:hover{
         flex-direction: column;
         align-items: center; 
         justify-content: center;    
-       
         margin: 20px;
     }
     #d-bg{
@@ -126,12 +126,11 @@ button:hover{
     }
     #m-bg{
         display: block;
-       
         position: absolute;
     }
     .left{
         width:90%;
-        height:40vh;
+        height: 40vh;
         text-align: center;
     }
     .right{    
