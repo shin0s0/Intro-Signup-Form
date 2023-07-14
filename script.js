@@ -21,6 +21,7 @@
     else{
       l1.style.display="none";
       fname.style.borderColor = '';
+        fname.classList.remove('error');
     }
     
      if ( lname.value.trim() === "") {
@@ -32,6 +33,7 @@
     else{
       l2.style.display="none";
       lname.style.borderColor = '';
+      lname.classList.remove('error')
     }
     
     if (email.value.trim() === "" || !email.value.includes("@gmail.com")) {
@@ -43,6 +45,7 @@
     else{
       l3.style.display="none";
       email.style.borderColor = '';
+     email.classList.remove('error');
     }
     
     if (password.value.trim() === "") {
@@ -54,6 +57,7 @@
     else{
       l4.style.display="none";
       password.style.borderColor = '';
+      password.classList.remove('error');
     }
   }
   else{
