@@ -15,6 +15,7 @@
      if (fname.value.trim() === "") {
       l1.style.display="block";
       fname.style.borderColor = 'hsl(0, 59%, 61%)';
+      fname.classList.add('error');
       event.preventDefault();
     }  
     else{
@@ -25,6 +26,7 @@
      if ( lname.value.trim() === "") {
       l2.style.display="block";
       lname.style.borderColor = 'hsl(0, 59%, 61%)';
+      lname.classList.add('error');
       event.preventDefault();
     }
     else{
@@ -35,6 +37,7 @@
     if (email.value.trim() === "" || !email.value.includes("@gmail.com")) {
       l3.style.display="block";
     email.style.borderColor = 'hsl(0, 59%, 61%)';
+    email.classList.add('error');
       event.preventDefault();
     }   
     else{
@@ -45,6 +48,7 @@
     if (password.value.trim() === "") {
       l4.style.display="block";
       password.style.borderColor = 'hsl(0, 59%, 61%)';
+      password.classList.add('error');
       event.preventDefault();
     }
     else{
