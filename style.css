@@ -79,6 +79,11 @@ input{
     border-radius: 5px;
 }
 
+.error{
+    background-image: url(./images/icon-error.svg);
+    background-repeat:no-repeat;
+    background-position: right;
+}
 label{
     display: none;
     font-size: 12px;
